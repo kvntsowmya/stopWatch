@@ -1,0 +1,50 @@
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+  background-size: cover;
+  height: 100vh;
+  font-family: 'Roboto';
+  padding: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  }
+}
+.clock-container {
+  background-color: #ffffff;
+  border-radius: 5px;
+  width: 250px;
+  box-shadow: initial;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.clock-img-container {
+  display: flex;
+  align-items: center;
+}
+.timer {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+.button {
+  color: #ffffff;
+  border: none;
+  height: 30px;
+  width: 70px;
+  margin-right: 7px;
+  margin-top: 10px;
+}
+.button1 {
+  background-color: #1db05f;
+}
+.button2 {
+  background-color: #ef0d36;
+}
+.button3 {
+  background-color: #eaa800;
+}
